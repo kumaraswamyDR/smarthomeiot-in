@@ -1,14 +1,16 @@
-export default function Button({ children, variant = "primary", href }: any) {
-  const styles =
-    variant === "primary"
-      ? "bg-brand-primary text-white hover:bg-brand-accent hover:text-brand-dark"
-      : "border border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white";
+interface ButtonProps {
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  children: React.ReactNode;
+  className?: string;
+}
+
+export default function Button({ onClick, children, className }: ButtonProps) {
   return (
-    <a
-      href={href}
-      className={`inline-block rounded-full px-6 py-2.5 font-medium shadow-md hover:shadow-glow transition ${styles}`}
+    <button
+      onClick={onClick}
+      className={`rounded-full px-4 py-2 font-semibold transition ${className || ""}`}
     >
       {children}
-    </a>
+    </button>
   );
 }

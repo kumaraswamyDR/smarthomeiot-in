@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Wifi, Lightbulb, ShieldCheck, Smartphone } from "lucide-react";
+import { Wifi, Lightbulb, Smartphone } from "lucide-react";
 
 export default function HeroSection() {
   const ref = useRef<HTMLDivElement>(null);
