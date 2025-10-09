@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function ContactPage() {

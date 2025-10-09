@@ -3,7 +3,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import Image from "next/image";
 import { Lightbulb, Cog, ShieldCheck, Wifi } from "lucide-react";
 import Link from "next/link";
