@@ -23,14 +23,14 @@ export default function Footer() {
           <h3 className="font-semibold text-lg mb-3">Quick Links</h3>
           <ul className="space-y-1 text-slate-300 text-sm">
             <li><Link href="/products" className="hover:text-brand-accent">Products</Link></li>
-            <li><Link href="/gallery" className="hover:text-brand-accent">Gallery</Link></li>
+            {/* <li><Link href="/gallery" className="hover:text-brand-accent">Gallery</Link></li> */}
             <li><Link href="/contact" className="hover:text-brand-accent">Contact</Link></li>
           </ul>
         </div>
         <div>
           <h3 className="font-semibold text-lg mb-3">Contact</h3>
-          <p className="text-sm text-slate-300">#8, Andrahalli Main Road, Bangalore</p>
-          <p className="text-sm text-slate-300">📞 +91 9113013653</p>
+          <p className="text-sm text-slate-300">SmartHomeiot, D group employees layout, Andrahalli Main Road, Bangalore 560091</p>
+          <p className="text-sm text-slate-300">📞 +91 7996565758</p>
           <p className="text-sm text-slate-300">📧 support@smarthomeiot.in</p>
           <div className="flex gap-4 mt-4">
             {[Facebook, Instagram, Youtube].map((Icon, i) => (
