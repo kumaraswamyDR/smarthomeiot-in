@@ -11,7 +11,7 @@ export default async function ProductDetailPage({
 }: {
   params: { slug: string };
 }) {
-  const { slug } = params;
+  const { slug } = await params;
   const product = products.find((p) => p.slug === slug);
 
   if (!product) return notFound();
