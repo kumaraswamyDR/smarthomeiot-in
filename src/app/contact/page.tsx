@@ -35,12 +35,12 @@ export default function ContactPage() {
         {[
           {
             title: "Our Office",
-            desc: "#8, Andrahalli Main Road, Bangalore, India",
+            desc: "SmartHomeiot, D group employees layout, Andrahalli Main Road, Bangalore 560091",
             icon: <MapPin size={30} />,
           },
           {
             title: "Call Us",
-            desc: "+91 9113013653",
+            desc: "📞 +91 7996565758",
             icon: <Phone size={30} />,
           },
           {
